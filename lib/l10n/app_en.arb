@@ -1,0 +1,43 @@
+{
+  "onboardingTitle1": "All Pokémon in\none place",
+  "onboardingDesc1": "Access a wide list of Pokémon from all generations created by Nintendo",
+  "onboardingTitle2": "Keep your Pokédex\nupdated",
+  "onboardingDesc2": "Register and save your profile, favorite Pokémon, settings and much more in the application",
+  "btnContinue": "Continue",
+  "btnLetsStart": "Let's Start",
+  "navPokedex": "Pokedex",
+  "navRegions": "Regions",
+  "navFavorites": "Favorites",
+  "navProfile": "Profile",
+  "search": "search",
+  "pokemonWeight": "WEIGHT",
+  "pokemonHeight": "HEIGHT",
+  "pokemonCategory": "CATEGORY",
+  "pokemonAbility": "ABILITY",
+  "pokemonGender": "GENDER",
+  "pokemonNoGender": "Genderless",
+  "pokemonWeaknesses": "Weaknesses",
+  "errorTitle": "Something went wrong…",
+  "errorDescription": "We couldn’t load the information at this time. Please check your connection or try again later.",
+  "btnRetry": "Retry",
+  "errorFavoriteTitle": "You haven’t marked any Pokémon as favorite.",
+  "errorFavoriteDescription": "Click on the heart icon of your favorite Pokémon and they will appear here.",
+  "errorConstructionTitle": "Coming soon!",
+  "errorConstructionDescription": "We're working to bring you this section. Please check back later to discover all the updates.",
+  "ups": "Upsss",
+  "pokemonNotFound": "The Pokémon you searched for does not exist",
+  "filterPreferences": "Filter by your preferences",
+  "filterType": "Type",
+  "btnApply": "Apply",
+  "btnCancel": "Cancel",
+  "filterResults": "{count} results found",
+  "@filterResults": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "filterClear": "Clear filter",
+  "searchHint": "Search Pokémon"
+}

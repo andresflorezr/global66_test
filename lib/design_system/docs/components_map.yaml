@@ -1,0 +1,92 @@
+# Global66 Design System Components Map
+# This file maps the implementation of Design System components to their definitions.
+# It serves as a reference for AI agents and developers to understand available widgets.
+
+version: 1.0.0
+description: "Component map for Global66 Design System"
+rules_reference: "lib/design_system/docs/design_system_rules.md"
+
+components:
+  atoms:
+    buttons:
+      - name: AppButton
+        path: lib/design_system/widgets/atoms/buttons/app_button.dart
+        description: "Primary action button with support for variants, sizes, and loading state."
+        variants:
+          - primary
+          - secondary
+          - tertiary
+        sizes:
+          - small
+          - medium
+          - large
+        properties:
+          - text: String
+          - onPressed: VoidCallback?
+          - isLoading: bool
+          - prefixIcon: IconData?
+          - suffixIcon: IconData?
+          - isFullWidth: bool
+    
+    text:
+      - name: AppText
+        path: lib/design_system/widgets/atoms/text/app_text.dart
+        description: "Standardized text widget wrapping AppTypography styles."
+        variants:
+          - onboardingTitle
+          - displayLarge
+          - displayTitle
+          - titleLarge
+          - titleMedium
+          - bodyLarge
+          - bodyMedium
+          - bodyMediumError
+          - labelLarge
+          - labelSmall
+          - caption
+        usage: "Use named constructors like AppText.titleLarge('text') instead of raw Text widgets."
+
+    tags:
+      - name: AppTag
+        path: lib/design_system/widgets/atoms/tag/app_tag.dart
+        description: "Pill-shaped tag for displaying categories or types (e.g., Pokemon Types)."
+        properties:
+          - text: String (used to resolve color and icon automatically)
+
+    loaders:
+      - name: WaveDotsLoader
+        path: lib/design_system/widgets/atoms/loaders/wave_dots_loader.dart
+        description: "Custom animated loader with wave effect."
+        properties:
+          - color: Color
+          - size: double
+
+    icons:
+      - name: FadedBackgroundIcon
+        path: lib/design_system/widgets/atoms/icon/faded_background_icon.dart
+        description: "Decorative SVG icon with a fade gradient mask, used in backgrounds."
+        properties:
+          - iconPath: String
+          - size: double
+          - color: Color
+
+  molecules:
+    clippers:
+      - name: ArcClipper
+        path: lib/design_system/widgets/molecules/arc_clipper/arc_clipper.dart
+        description: "Custom clipper to create an arc shape, typically for headers or backgrounds."
+        usage: "Use with ClipPath widget."
+
+  organisms:
+    cards:
+      - name: PokemonCard
+        path: lib/design_system/widgets/organisms/pokemon_card.dart
+        description: "Complex card component displaying Pokemon details."
+        properties:
+          - id: String
+          - name: String
+          - types: List<PokemonType>
+          - imageUrl: String
+          - isFavorite: bool
+          - onTap: VoidCallback?
+          - onFavoriteTap: VoidCallback?

@@ -1,0 +1,43 @@
+{
+  "onboardingTitle1": "Todos los Pokémon en\nun solo lugar",
+  "onboardingDesc1": "Accede a una amplia lista de Pokémon de todas las generaciones creadas por Nintendo",
+  "onboardingTitle2": "Mantén tu Pokédex\nactualizada",
+  "onboardingDesc2": "Regístrate y guarda tu perfil, Pokémon favoritos, configuraciones y mucho más en la aplicación",
+  "btnContinue": "Continuar",
+  "btnLetsStart": "Empecemos",
+  "navPokedex": "Pokedex",
+  "navRegions": "Regiones",
+  "navFavorites": "Favoritos",
+  "navProfile": "Perfil",
+  "search": "Buscar",
+  "pokemonWeight": "PESO",
+  "pokemonHeight": "ALTURA",
+  "pokemonCategory": "CATEGORÍA",
+  "pokemonAbility": "HABILIDAD",
+  "pokemonGender": "GÉNERO",
+  "pokemonNoGender": "Sin género",
+  "pokemonWeaknesses": "Debilidades",
+  "errorTitle": "Algo salió mal...",
+  "errorDescription": "No pudimos cargar la información en este momento. Verifica tu conexión o intenta nuevamente más tarde.",
+  "btnRetry": "Reintentar",
+  "errorFavoriteTitle": "No has marcado ningún Pokémon como favorito",
+  "errorFavoriteDescription": "Haz clic en el ícono de corazón de tus Pokémon favoritos y aparecerán aquí.",
+  "errorConstructionTitle": "¡Muy pronto disponible!",
+  "errorConstructionDescription": "Estamos trabajando para traerte esta sección. Vuelve más adelante para descubrir todas las novedades.",
+  "ups": "Upsss",
+  "pokemonNotFound": "El pokemon que buscaste no existe",
+  "filterPreferences": "Filtra por tus preferencias",
+  "filterType": "Tipo",
+  "btnApply": "Aplicar",
+  "btnCancel": "Cancelar",
+  "filterResults": "Se han encontrado {count} resultados",
+  "@filterResults": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "filterClear": "Borrar filtro",
+  "searchHint": "Buscar Pokémon"
+}
